@@ -8,13 +8,13 @@ body {
   font-size: 17px;
   color: #222;
   background: #fff;
-  line-height: 1.75;
+  line-height: 1.25;
 }
 
 .page {
   max-width: 860px;
   margin: 0 auto;
-  padding: 28px 24px 56px;
+  padding: 18px 8px 56px;
 }
 
 /* .topbar {
@@ -28,7 +28,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: 24px;
-  margin-bottom: 28px;
+  margin-bottom: 14px;
   margin-left: -20px;
 }
 
@@ -46,6 +46,7 @@ body {
 .justify-text {
   text-align: justify;
   hyphens: auto;
+  line-height: 1.25;
 }
 
 .nav {
@@ -103,7 +104,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .title-row h1 {
@@ -127,7 +128,13 @@ body {
 }
 
 .hero-text p {
-  margin: 8px 0;
+  margin: 4px 0;
+  color: #2f2f2f;
+  line-height: 1.25;
+}
+
+.hero-text p + p {
+  margin-top: 12px;
 }
 
 .hero-image img {
@@ -138,7 +145,7 @@ body {
 }
 
 .links {
-  margin-top: 14px;
+  margin-top: 12px;
 }
 
 .links a {
@@ -152,7 +159,11 @@ body {
 }
 
 section {
-  margin-bottom: 28px;
+  margin-bottom: 22px;
+}
+
+section p + p {
+  margin-top: 12px;
 }
 
 h2 {
@@ -188,8 +199,18 @@ h3 {
   margin-bottom: 6px;
 }
 
+.pub-list a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.pub-list a:hover {
+  color: #0645ad;
+  text-decoration: underline;
+}
+
 p {
-  margin: 0 0 10px;
+  margin: 0 0 4px;
 }
 
 ul {
