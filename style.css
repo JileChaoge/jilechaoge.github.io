@@ -49,6 +49,15 @@ body {
   line-height: 1.25;
 }
 
+.justify-text a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.justify-text a:hover {
+  text-decoration: underline;
+}
+
 .nav {
   display: flex;
   gap: 14px;
