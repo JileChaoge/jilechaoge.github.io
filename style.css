@@ -236,35 +236,144 @@ li {
     font-size: 16px;
   }
 
-  .page {
+  /* .page {
     padding: 20px 18px 40px;
+  } */
+  .page {
+    padding: 16px 14px 36px;
   }
 
-  .topbar {
+  /* .topbar {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
-}
+} */
 
-  .title-row {
+  /* .title-row {
     gap: 12px;
+} */
+  /* .title-row {
+    display: block;
+    margin-bottom: 8px;
+  } */
+  .title-row {
+  position: relative;
+  display: block;
+  margin-bottom: 8px;
+  padding-right: 56px;
 }
 
+  .title-row h1 {
+    margin-bottom: 0;
+  }
+
+  /* .mongolian-svg {
+      height: 78px;
+  } */
+  /* .mongolian-svg {
+    display: none;
+  } */
   .mongolian-svg {
-    height: 78px;
-}
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: -22px;
+    height: 69px;
+    width: auto;
+    margin-top: 0;
+    opacity: 0.9;
+  }
+
+  /* .nav {
+    margin: 0;
+} */
+
+  /* .nav {
+    gap: 6px 12px;
+  }
+
+  .nav a {
+    font-size: 14px;
+  } */
+  
+  /* .nav {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    line-height: 1.2;
+  }
+
+  .nav a {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  .lang-btn {
+    margin-left: 0;
+    align-self: flex-end;
+    margin-top: -34px;
+    padding: 3px 8px;
+    font-size: 12px;
+  } */
 
   .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
     margin: 0;
-}
+    padding-right: 64px;
+    line-height: 1.25;
+  }
+
+  .nav a {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  .lang-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 3px 8px;
+    font-size: 12px;
+  }
+
+  /* .topbar {
+    gap: 8px;
+    margin-bottom: 10px;
+  } */
+  /* .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 10px;
+  } */
+  /* .topbar {
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+    padding: 0 12px 0 0;
+  } */
+  .topbar {
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 0;
+    padding: 0;
+  }
 
   .hero {
     grid-template-columns: 1fr;
     gap: 18px;
   }
 
-  .hero-image img {
+  /* .hero-image img {
     max-width: 220px;
+  } */
+  .hero-image img {
+    max-width: 180px;
   }
 
   .hero h1 {
