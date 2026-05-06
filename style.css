@@ -112,7 +112,7 @@ body {
 .title-row {
   display: flex;
   align-items: flex-start;
-  gap: 12px;
+  gap: 0px;
   margin-bottom: 6px;
 }
 
@@ -124,7 +124,7 @@ body {
   height: 150px;
   width: auto;
   display: block;
-  margin-top: -20px;
+  margin-top: -24px;
   flex-shrink: 0;
   /* opacity: 0.6; */
 }
