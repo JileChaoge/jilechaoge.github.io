@@ -273,12 +273,22 @@ li {
   /* .mongolian-svg {
     display: none;
   } */
-  .mongolian-svg {
+  /* .mongolian-svg {
     display: block;
     position: absolute;
     right: 25px;
     top: -9px;
     height: 46px;
+    width: auto;
+    margin-top: 0;
+    opacity: 0.9;
+  } */
+  .mongolian-svg {
+    display: block;
+    position: absolute;
+    right: 18px;
+    top: -12px;
+    height: 62px;
     width: auto;
     margin-top: 0;
     opacity: 0.9;
